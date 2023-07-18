@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcomde to kokoa Talk</title>
+    <title>Welcome to kokoa Clone</title>
 </head>
 <body>
-    <div id="status-bar">
+    <div class="status-bar">
         <div class="status-bar__column">
             <span>No service</span>
+            <i class="fas fa-wifi"></i>
         </div>
         <!-- To do: Wifi Icon -->
         <div class="status-bar__column">
@@ -17,9 +19,26 @@
         <!-- time -->
         <div class="status-bar__column">
             <span>100%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
         </div>
         <!-- battery Icon -->
         <!-- Lightning Icon -->
     </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to KoKoa Clone</h1>
+        <p class="welcome-header__text">
+            if you have a Kokoa Account, log in with your email or phone number.</p>
+    </header>
+    <form id="login-form">
+        <input type="text" placeholder="Email or phone number"/>
+        <input type="password" placeholder="Password"/>
+        <input type="submit" value="Log in" />
+        <a href="#">Find kakao Account or Password</a>
+    </form>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
 </body>
 </html>
