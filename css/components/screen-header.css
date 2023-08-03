@@ -1,15 +1,17 @@
 .screens-header{
     display: flex;
     justify-content: space-between;
-    padding: var(--horizontal-space  );
+    padding: var(--horizontal-space);
+    margin-bottom: 15px;
 }
 
 .screens__tittle{
     font-size:32px;
-    font-weight: 600;
-    align-items: center;
+    font-weight:600;
+    align-items:center;
 }
 
 .screens__icons span{
     margin-left:25px;
 }
+

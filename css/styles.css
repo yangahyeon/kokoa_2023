@@ -35,3 +35,7 @@ body{
     width:60%;
     opacity: 50%;
 }
+
+.main-screen{
+    padding: 0px var(--horizontal-space);
+}
