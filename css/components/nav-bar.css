@@ -34,13 +34,7 @@
  }
 
 .nav__more{
-    background-color: tomato;
-    width: 6px;
-    height: 6px;
-    border-radius: 3px;
-    display: flex;
-    color: #f9f9fa;
     position: absolute;
-    left: 30px;
-    
+    left: 15px;
+    bottom: 15px;
 }

@@ -6,6 +6,7 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@Import "components/badge.css";
 
 /* screens */
 @import "screens/login.css";
@@ -37,5 +38,5 @@ body{
 }
 
 .main-screen{
-    padding: 0px var(--horizontal-space);
+    padding: 0px var(--horizontal-space );
 }
